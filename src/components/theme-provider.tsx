@@ -1,0 +1,60 @@
+import { createContext, useContext, useEffect, useState } from 'react';
+
+type Theme = 'light' | 'dark' | 'system';
+
+type ThemeProviderProps = {
+  children: React.ReactNode;
+  defaultTheme?: Theme;
+  storageKey?: string;
+}
+
+type ThemeProviderContextState = {
+  theme: Theme;
+  setTheme: (theme: Theme) => void;
+}
+
+const initialState: ThemeProviderContextState = {
+  theme: 'system',
+  setTheme: () => { },
+};
+
+const ThemeProviderContext = createContext<ThemeProviderContextState>(initialState)
+
+export function ThemeProvider({
+  children, defaultTheme = 'system', storageKey = 'ui-theme', ...props
+}: ThemeProviderProps) {
+  const [theme, setTheme] = useState<Theme>(
+    () => localStorage.getItem(storageKey) as Theme || defaultTheme)
+
+  useEffect(() => {
+    const root = window.document.documentElement;
+    root.classList.remove("light", "dark")
+    if (theme === "system") {
+      const systemTheme = window.matchMedia("(prefers-color-scheme: light)")
+        .matches
+        ? "light"
+        : "dark"
+
+      root.classList.add(systemTheme)
+      return
+    }
+    root.classList.add(theme)
+
+  }, [theme])
+
+  return (
+
+
+    <ThemeProviderContext.Provider {...props} value={{ theme, setTheme }}>
+      {children}
+    </ThemeProviderContext.Provider>
+  )
+}
+
+export function useTheme() {
+  const context = useContext(ThemeProviderContext)
+  if (!context) {
+    throw new Error("useTheme must be used within a ThemeProvider")
+  }
+  return context
+}
