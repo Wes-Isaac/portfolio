@@ -19,8 +19,8 @@ export default function MainSection() {
 
           <div className="flex flex-col sm:flex-row gap-4">
             <Button asChild className="justify-start">
-              <a href="#work" className="group">
-                View Selected Work
+              <a href="#about" className="group">
+                More about me
                 <ArrowUpRight className="w-4 h-4 ml-2 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
               </a>
             </Button>
@@ -29,7 +29,7 @@ export default function MainSection() {
               asChild
               className="justify-start"
             >
-              <a href="mailto:alex@example.com">
+              <a href="mailto:yisehakmitiku@gmail.com">
                 <Mail className="w-4 h-4 mr-2" />
                 Get in touch
               </a>

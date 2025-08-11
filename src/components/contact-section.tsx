@@ -23,7 +23,7 @@ export default function ContactSection() {
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <Button asChild>
               <a
-                href="mailto:alex@example.com"
+                href="mailto:yisehakmitiku@gmail.com"
                 className="group"
               >
                 <Mail className="w-4 h-4 mr-2" />
@@ -35,7 +35,7 @@ export default function ContactSection() {
 
           <div className="flex gap-6">
             <a
-              href="https://github.com"
+              href="https://github.com/Wes-Isaac/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2"
@@ -44,7 +44,7 @@ export default function ContactSection() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/yishak-wesego/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2"
