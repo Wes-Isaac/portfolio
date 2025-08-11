@@ -15,19 +15,20 @@ const experience = [
       "Engineered multi-tenant web applications with Next.js, TanStack, and Nest.js, focusing on performance, maintainability, and seamless user experiences.",
   },
   {
-    year: "May 2023— October 2023",
-    company: "Maado(Contract)",
-    role: "Frontend Developer",
-    description:
-      "Developed an LMS web app for teacher onboarding and course management, registering students and providing different enrollment options, integrating Zoom and Stripe for enhanced functionality and streamlined workflows.",
-  },
-  {
     year: "August 2023 - January 2024",
     company: "Jebena Tech",
     role: "Mobile Developer",
     description:
       "Refactor existing mobile application codebase to improve performance and maintainability, implement new features, and ensure a seamless user experience.",
   },
+  {
+    year: "May 2023— October 2023",
+    company: "Maado(Contract)",
+    role: "Frontend Developer",
+    description:
+      "Developed an LMS web app for teacher onboarding and course management, registering students and providing different enrollment options, integrating Zoom and Stripe for enhanced functionality and streamlined workflows.",
+  },
+
 ];
 
 export default function AboutSection() {
