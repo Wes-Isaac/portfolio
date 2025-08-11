@@ -9,7 +9,7 @@ import Footer from '@/components/footer';
 function App() {
 
   return (
-    <ThemeProvider defaultTheme='light' storageKey='vite-pr-theme'>
+    <ThemeProvider defaultTheme='dark' storageKey='vite-pr-theme'>
       <NavBar />
       <MainSection />
       <AboutSection />
