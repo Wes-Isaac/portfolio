@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+::selection {
+  background-color: var(--color-foreground);
+  color: var(--color-background);
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
