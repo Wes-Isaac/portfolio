@@ -1,4 +1,4 @@
-## Porfolio.
+## Porfolio
 
 ## Built With
 
@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://chimerical-pony-baaef9.netlify.app)
+[Live Demo Link](https://wes-isaac.netlify.app/)
 
 ## Getting Started
 
