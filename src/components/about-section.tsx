@@ -1,28 +1,28 @@
 
 const experience = [
   {
-    year: "2024—Present",
+    year: "2024 — Present",
     company: "Inzzi Software",
     role: "React Native Developer",
     description:
       "Spearheading MVP development for clients and internal projects. Collaborate with cross-functional teams to architect and deliver robust, scalable mobile apps using React Native, TypeScript, and advanced state management.",
   },
   {
-    year: "2024—2025",
+    year: "2024 — 2025",
     company: "Two Matches",
     role: "Full Stack Developer",
     description:
       "Engineered multi-tenant web applications with Next.js, TanStack, and Nest.js, focusing on performance, maintainability, and seamless user experiences.",
   },
   {
-    year: "August 2023 - January 2024",
+    year: "2023 — 2024",
     company: "Jebena Tech",
     role: "Mobile Developer",
     description:
       "Refactor existing mobile application codebase to improve performance and maintainability, implement new features, and ensure a seamless user experience.",
   },
   {
-    year: "May 2023— October 2023",
+    year: "2023",
     company: "Maado(Contract)",
     role: "Frontend Developer",
     description:
