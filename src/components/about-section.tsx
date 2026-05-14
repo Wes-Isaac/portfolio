@@ -1,34 +1,40 @@
 
 const experience = [
   {
-    year: "2024 — Present",
+    year: "Aug 2025 — Present",
+    company: "Jebena Tech",
+    role: "Full Stack Developer",
+    description:
+      "Redesigned and rebuilt the mobile application with a modernized UI using Expo while developing the backend from the ground up, delivering a cohesive full-stack solution.",
+  },
+  {
+    year: "Jan 2025 — Jun 2025",
     company: "Inzzi Software",
     role: "React Native Developer",
     description:
       "Spearheading MVP development for clients and internal projects. Collaborate with cross-functional teams to architect and deliver robust, scalable mobile apps using React Native, TypeScript, and advanced state management.",
   },
   {
-    year: "2024 — 2025",
+    year: "Mar 2024 — Jan 2025",
     company: "Two Matches",
     role: "Full Stack Developer",
     description:
       "Engineered multi-tenant web applications with Next.js, TanStack, and Nest.js, focusing on performance, maintainability, and seamless user experiences.",
   },
   {
-    year: "2023 — 2024",
+    year: "Aug 2023 — Jan 2024",
     company: "Jebena Tech",
     role: "Mobile Developer",
     description:
-      "Refactor existing mobile application codebase to improve performance and maintainability, implement new features, and ensure a seamless user experience.",
+      "Refactored the existing mobile application codebase to improve performance and maintainability, implemented new features, and ensured a seamless user experience.",
   },
   {
-    year: "2023",
-    company: "Maado(Contract)",
+    year: "May 2023 — Oct 2023",
+    company: "Maado (Contract)",
     role: "Frontend Developer",
     description:
       "Developed an LMS web app for teacher onboarding and course management, registering students and providing different enrollment options, integrating Zoom and Stripe for enhanced functionality and streamlined workflows.",
   },
-
 ];
 
 export default function AboutSection() {
